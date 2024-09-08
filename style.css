@@ -95,3 +95,18 @@ button:focus {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+@media screen and (max-width: 800px) {
+  .sidebar > div {
+    justify-content: flex-end;
+  }
+
+  .sidebar h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .sidebar p {
+    text-align: center;
+  }
+}
